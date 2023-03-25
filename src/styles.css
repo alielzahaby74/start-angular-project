@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --main-color: #1ABC9C;
+}
+
+body {
+    font-family: "segoe ui light", sans-serif;
+}
+h2 {
+    font-size: 4.5rem !important;
+}
+
+.custom-line {
+
+    height: 5px;
+    width: 8%;
+    border-radius: 5px;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}

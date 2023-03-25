@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="portfolio py-5 text-center">
+
+        <h2>Portfolio</h2>
+        <div class="d-flex align-items-center justify-content-center w-100 my-3">
+            <div class="custom-line"></div>
+            <div class="icon">
+                <!-- font awsome star -->
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="custom-line"></div>
+        </div>
+        <div class="row">
+            <div class="item col-lg-4 col-md-6 mb-5 cursor-pointer rounded-3 overflow-hidden" *ngFor="let src of sources">
+                <div class="img" [ngStyle]="{'background-image': 'url(' + mainPath + src + ')'}">
+                    <div class="overlay">
+                        <img src="../../assets/images/vector4.svg" class="w-25" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.contact {
+    min-height: 75vh;
+}
+.custom-line {
+    background-color: var(--bs-body-color);
+}
+
+input, textarea {
+    border: 0;
+    font-size: 1.3rem;
+    margin: 10px 0;
+    resize: none;
+    
+}
+input:focus, textarea:focus {
+    box-shadow: none;
+}
+.ds-flex  {
+    display: flex;
+}
+button {
+    padding: 15px 20px;
+}

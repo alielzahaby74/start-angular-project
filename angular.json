@@ -25,9 +25,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "bootstrap/dist/css/bootstrap.min.css",
+              "font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
